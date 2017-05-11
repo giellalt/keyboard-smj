@@ -3,10 +3,13 @@ internalName: smj_keyboard
 locales:
   en:
     name: &bundleName "Lule Sami Keyboards"
-    description: "Mobile OS keyboards for the Lule Sami language from the Divvun group at UiT."
+    description: "Keyboards for the Lule Sami language from the Divvun group at UiT."
   nb:
-    name: "Lule Sami tastatur"
+    name: "Lulesamiske tastatur"
     description: "Tastatur for lulesamisk fra Divvun-gruppa."
+  sv:
+    name: "Lulesamiska tangentbord"
+    description: "Tangentbord för lulesamiska från Divvun-gruppen vid UiT."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
