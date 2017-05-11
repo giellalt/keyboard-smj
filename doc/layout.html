@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Keyboard layout for Lule Sami</title>
+    <title>Layout(s) for the Lule Sami Keyboards</title>
 </head>
 <body>
     <p><strong>Legend:</strong></p>
@@ -37,6 +37,21 @@
         </tr>
       </tbody>
     </table>
-    <h2>No keyboard layout defined yet!</h2>
+    <h2>Julevsámegiella (Vuodna)</h2>
+    <object type="image/svg+xml"data="smj_NO_keyboard.svg" width="960" height="320"></object><br>
+    <h2>Julevsámegiella (Svierik)</h2>
+    <object type="image/svg+xml"data="smj_SE_keyboard.svg" width="960" height="320"></object><br>
+    <script>
+        "use strict";
+
+        var i, ii, nodes, node;
+
+        nodes = document.querySelectorAll(".key-dead");
+        for (i = 0, ii = nodes.length; i < ii; ++i) {
+            nodes[i].addEventListener('click', function(e) {
+                console.log(this);
+            }, false);
+        }
+    </script>
 </body>
 </html>
