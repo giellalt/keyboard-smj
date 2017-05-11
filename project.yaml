@@ -37,5 +37,5 @@ targets:
     icon: images/smj-icon.png
   osx:
     <<: *AppleID
-    icon: images/smj-icon.png
+    icon: images/smj-keyboard-menu-icon.png
     codeSignId: "my-test-installer"
