@@ -1,0 +1,38 @@
+internalName: smj_keyboard
+
+locales:
+  en:
+    name: &bundleName "Lule Sami Keyboards"
+    description: "Mobile OS keyboards for the Lule Sami language from the Divvun group at UiT."
+  nb:
+    name: "Lule Sami tastatur"
+    description: "Tastatur for lulesamisk fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts: [smj_NO smj_SE]
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.smj
+    icon: images/smj-icon.pdf
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: smj_keyboard
+
+  ios: &AppleID
+    codeSignId: "iOS Development"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.smj
+    bundleName: *bundleName
+    icon: images/smj-icon.png
+  osx:
+    <<: *AppleID
+    icon: images/smj-icon.png
+    codeSignId: "my-test-installer"
