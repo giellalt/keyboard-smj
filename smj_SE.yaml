@@ -1,4 +1,4 @@
-### Dekstop layout generated from sv-t-k0-osx.xml on 2017-05-11 at 05:58.
+### Desktop layout generated from sv-t-k0-osx.xml on 2017-05-11 at 05:58.
 internalName: smj_SE_keyboard
 
 displayNames:
@@ -10,7 +10,7 @@ displayNames:
   se: Julevsámegiella (Ruoŧŧa)
   sv: Lulesamiska (Sverige)
 
-locale: smj_SE
+locale: smj
 
 modes:
   mobile-default: |
