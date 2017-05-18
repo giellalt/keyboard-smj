@@ -1,0 +1,175 @@
+### Generated from nb-t-k0-windows-extended.xml on 2017-05-18 at 21:21.
+internalName: smj_NO_windows_keyboard
+
+displayNames:
+  smj: Julevsámegiella (Vuodna)
+  smj_NO: Julevsámegiella (Vuodna)
+  en: Julev Sami (Norway)
+  fi: Julevsaame (Norja)
+  nb: Lulesamisk (Norge)
+  no: Lulesamisk (Norge)
+  nn: Lulesamisk (Noreg)
+  da: Lulesamisk (Norge)
+  se: Julevsámegiella (Norga)
+  sv: Lulesamiska (Norge)
+
+locale: smj
+
+supportedTargets: [win, x11, svg]
+
+modes:
+  # default
+  iso-default: |
+    | 1 2 3 4 5 6 7 8 9 0 + \
+    q w e r t y u i o p å ¨
+    a s d f g h j k l ø æ '
+    < z x c v b n m , . -
+  # shift
+  iso-shift: |
+    § ! " # ¤ % & / ( ) = ? `
+    Q W E R T Y U I O P Å ^
+    A S D F G H J K L Ø Æ *
+    > Z X C V B N M ; : _
+  # caps
+  iso-caps: |
+    | 1 2 3 4 5 6 7 8 9 0 + \
+    Q W E R T Y U I O P Å ¨
+    A S D F G H J K L Ø Æ '
+    < Z X C V B N M , . -
+  # caps+shift
+  iso-caps+shift: |
+    § ! " # ¤ % & / ( ) = ? `
+    q w e r t y u i o p å ^
+    a s d f g h j k l ø æ *
+    > z x c v b n m ; : _
+  # altR+caps? ctrl+alt+caps?
+  iso-alt: |
+    \u{0} \u{0} @ £ $ € \u{0} { [ ] } \u{0} ´
+    â \u{0} € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
+    á š đ ǥ ǧ ȟ \u{0} ǩ \u{0} ö ä \u{0}
+    \u{0} ž \u{0} č ǯ ʒ ŋ µ \u{0} \u{0} \u{0}
+  # altR+shift+caps? ctrl+alt+shift+caps?
+  iso-alt+shift: |
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    Â \u{0} \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} \u{0}
+    Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ö Ä \u{0}
+    \u{0} Ž \u{0} Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
+  # ctrl+caps?
+  iso-ctrl: |
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
+deadKeys:
+  iso-default: ['¨']
+  iso-shift: ['^', '`']
+  iso-caps: ['¨']
+  iso-caps+shift: ['^', '`']
+  iso-alt: ['~', '´']
+
+transforms:
+  "`":
+    " ": "`"
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+    w: ẁ
+    W: Ẁ
+    y: ỳ
+    Y: Ỳ
+  ´:
+    " ": ´
+    a: á
+    A: Á
+    c: ć
+    C: Ć
+    e: é
+    E: É
+    i: í
+    I: Í
+    l: ĺ
+    L: Ĺ
+    n: ń
+    N: Ń
+    o: ó
+    O: Ó
+    r: ŕ
+    R: Ŕ
+    s: ś
+    S: Ś
+    u: ú
+    U: Ú
+    w: ẃ
+    W: Ẃ
+    y: ý
+    Y: Ý
+    z: ź
+    Z: Ź
+    æ: ǽ
+    Æ: Ǽ
+    ø: ǿ
+    Ø: Ǿ
+    å: ǻ
+    Å: Ǻ
+  ^:
+    " ": ^
+    a: â
+    A: Â
+    c: ĉ
+    C: Ĉ
+    e: ê
+    E: Ê
+    g: ĝ
+    G: Ĝ
+    h: ĥ
+    H: Ĥ
+    i: î
+    I: Î
+    j: ĵ
+    J: Ĵ
+    o: ô
+    O: Ô
+    s: ŝ
+    S: Ŝ
+    u: û
+    U: Û
+    w: ŵ
+    W: Ŵ
+    y: ŷ
+    Y: Ŷ
+  ¨:
+    " ": ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    u: ü
+    U: Ü
+    w: ẅ
+    W: Ẅ
+    y: ÿ
+    Y: Ÿ
+  "~":
+    " ": "~"
+    a: ã
+    A: Ã
+    i: ĩ
+    I: Ĩ
+    n: ñ
+    N: Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
