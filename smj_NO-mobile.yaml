@@ -1,47 +1,61 @@
-### Generated from nb-t-k0-osx.xml on 2017-05-11 at 05:59.
-
-internalName: nb-t-k0-osx
+### Desktop keyboard generated from nb-t-k0-osx.xml on 2017-05-11 at 05:59.
+internalName: smj_NO_keyboard
 
 displayNames:
-  nb: Norwegian
+  smj: Julevsámegiella (Vuodna)
+  smj_NO: Julevsámegiella (Vuodna)
+  en: Julev Sami (Norway)
+  fi: Julevsaame (Norja)
+  nb: Lulesamisk (Norge)
+  se: Julevsámegiella (Norga)
+  sv: Lulesamiska (Norge)
 
-locale: nb
+locale: smj
 
 modes:
+  mobile-default: |
+    á w e r t y u i o p å
+    a s d f g h j k l ø æ
+       z x c v b n m ŋ
+  mobile-shift: |
+    Á W E R T Y U I O P Å
+    A S D F G H J K L Ø Æ
+       Z X C V B N M Ŋ
+# Desktop layouts:
   # default
   iso-default: |
     ' 1 2 3 4 5 6 7 8 9 0 + ´
-    q w e r t y u i o p å ¨
+    á w e r t y u i o p å ŋ
     a s d f g h j k l ø æ @
     < z x c v b n m , . -
   # shift+caps?
   iso-shift: |
     § ! " # $ % & / ( ) = ? `
-    Q W E R T Y U I O P Å ^
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ *
     > Z X C V B N M ; : _
   # caps+cmd?
   iso-caps: |
     ' 1 2 3 4 5 6 7 8 9 0 + ´
-    Q W E R T Y U I O P Å ¨
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ @
     < Z X C V B N M , . -
   # opt
   iso-alt: |
-    € © ™ £ € ∞ § | [ ] ≈ ± `
-    • Ω é \u{0} † µ ü ı œ π ˙ ~
+    € © ™ £ € ∞ § | [ ] ≈ ± ¨
+    q Ω é \u{0} † µ ü ı œ π ˙ ~
     \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ ö ä '
     ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    Ÿ ¡ ® ¥ ¢ ‰ ¶ \ { } ≠ ¿ \u{0}
-    ° ˝ É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
+    Ÿ ¡ ® ¥ ¢ ‰ ¶ \ { } ≠ ¿ ^
+    Q ˝ É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
     ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ö Ä \u{0}
     ≥ ⁄ \u{0} Ç « » “ ” „ · —
   # opt+caps+cmd?
   iso-caps+alt: |
     € © ™ £ € ∞ § | [ ] ≈ ± `
-    • Ω É \u{0} † µ Ü ı Œ π ˙ ~
+    Q Ω É \u{0} † µ Ü ı Œ π ˙ ~
     \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ Ö Ä '
     ≤ ÷ Ù Ç ‹ › ‘ ’ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
@@ -56,6 +70,50 @@ modes:
     • Ω é \u{0} † µ ü ı œ π ˙ ~
     \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ ö ä '
     ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
+
+longpress:
+  A: Æ Ä Å Â
+  Á: Q
+  C: Č
+  D: Đ
+  G: Ǧ Ǥ 
+  I: Ï 
+  K: Ǩ
+  O: Ø Ö Õ
+  S: Š
+  T: Ŧ
+  Z: Ž Ǯ Ʒ
+  Æ: Ä
+  Ø: Ö
+
+  a: æ ä å â
+  á: q
+  c: č
+  d: đ
+  g: ǧ ǥ 
+  i: ï 
+  k: ǩ
+  o: ø ö õ
+  s: š
+  t: ŧ
+  z: ž ǯ ʒ
+  æ: ä
+  ø: ö
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+strings:
+  space: gasska
+  return: linnjamålssom
 
 deadKeys:
   iso-default: ['¨', '´']
