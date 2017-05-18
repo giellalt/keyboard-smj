@@ -26,30 +26,30 @@ modes:
   # default
   iso-default: |
     § 1 2 3 4 5 6 7 8 9 0 + ´
-    á w e r t y u i o p å ¨
+    á w e r t y u i o p å ŋ
     a s d f g h j k l ö ä '
     < z x c v b n m , . -
   # shift+caps?
   iso-shift: |
     ° ! " # € % & / ( ) = ? `
-    Á W E R T Y U I O P Å ^
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ö Ä *
     > Z X C V B N M ; : _
   # " # caps+cmd?
   iso-caps: |
     § 1 2 3 4 5 6 7 8 9 0 + ´
-    Á W E R T Y U I O P Å ¨
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ö Ä '
     < Z X C V B N M , . -
   # opt
   iso-alt: |
-    ¶ © ™ £ $ ∞ § | [ ] ≈ ± ´
+    ¶ © ™ £ $ ∞ § | [ ] ≈ ± ¨
     q Ω é ® † µ ü ı œ π ˙ ~
     \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ @
     ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ `
+    • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ ^
     Q ˝ É √ ‡ ˜ Ü ˆ Œ ∏ ˚ ^
     ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ø Æ ’
     ≥ ⁄ ˇ Ç « » “ ” „ · —
