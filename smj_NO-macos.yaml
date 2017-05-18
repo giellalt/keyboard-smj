@@ -68,9 +68,10 @@ modes:
     ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
 
 deadKeys:
-  iso-default: ['¨', '´']
-  iso-shift: ['^', '`']
-  iso-alt: ['~']
+  iso-default: ['´']
+  iso-shift: ['`']
+  iso-alt: ['¨', '~']
+  iso-alt+shift: ['^']
 
 transforms:
   "`":

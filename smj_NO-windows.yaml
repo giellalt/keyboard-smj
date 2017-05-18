@@ -21,37 +21,37 @@ modes:
   # default
   iso-default: |
     | 1 2 3 4 5 6 7 8 9 0 + \
-    q w e r t y u i o p å ¨
+    á w e r t y u i o p å ŋ
     a s d f g h j k l ø æ '
     < z x c v b n m , . -
   # shift
   iso-shift: |
     § ! " # ¤ % & / ( ) = ? `
-    Q W E R T Y U I O P Å ^
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ *
     > Z X C V B N M ; : _
   # caps
   iso-caps: |
     | 1 2 3 4 5 6 7 8 9 0 + \
-    Q W E R T Y U I O P Å ¨
+    Á W E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ '
     < Z X C V B N M , . -
   # caps+shift
   iso-caps+shift: |
     § ! " # ¤ % & / ( ) = ? `
-    q w e r t y u i o p å ^
+    á w e r t y u i o p å ŋ
     a s d f g h j k l ø æ *
     > z x c v b n m ; : _
   # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    \u{0} \u{0} @ £ $ € \u{0} { [ ] } \u{0} ´
-    â \u{0} € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
+    \u{0} \u{0} @ £ $ € \u{0} { [ ] } \u{0} ¨
+    q â € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
     á š đ ǥ ǧ ȟ \u{0} ǩ \u{0} ö ä \u{0}
     \u{0} ž \u{0} č ǯ ʒ ŋ µ \u{0} \u{0} \u{0}
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
-    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    Â \u{0} \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^
+    Q Â \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} ´
     Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ö Ä \u{0}
     \u{0} Ž \u{0} Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
   # ctrl+caps?
@@ -62,11 +62,12 @@ modes:
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 
 deadKeys:
-  iso-default: ['¨']
+  iso-default: []
   iso-shift: ['^', '`']
   iso-caps: ['¨']
-  iso-caps+shift: ['^', '`']
-  iso-alt: ['~', '´']
+  iso-caps+shift: ['`']
+  iso-alt: ['¨', '~',]
+  iso-alt+shift: ['^', '´']
 
 transforms:
   "`":
