@@ -1,4 +1,5 @@
-### Desktop layout generated from sv-t-k0-osx.xml on 2017-05-11 at 05:58.
+### Generated from sv-t-k0-osx.xml on 2017-05-11 at 05:58.
+### Enhanced from sv-t-k0-osx-extended.xml on 2017-05-22 at 18:22.
 internalName: smj_SE_macos_keyboard
 
 displayNames:
@@ -38,9 +39,9 @@ modes:
     < Z X C V B N M , . -
   # opt
   iso-alt: |
-    ¶ © ™ £ $ ∞ § | [ ] ≈ ± ¨
+    ¶ © @ £ $ ∞ § | [ ] ≈ ± ¨
     q Ω é ® † µ ü ı œ π ˙ ~
-    \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ @
+     ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ ™
     ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
@@ -50,14 +51,14 @@ modes:
     ≥ ⁄ ˇ Ç « » “ ” „ · —
   # opt+caps+cmd?
   iso-caps+alt: |
-    ¶ © ™ £ $ ∞ § | [ ] ≈ ± ´
+    ¶ © @ £ $ ∞ § | [ ] ≈ ± ¨
     Q Ω É ® † µ Ü ı Œ π ˙ ~
-    \u{F8FF} ß ∂ ƒ ¸ ˛ √ ª ﬁ Ø Æ @
+     ß ∂ ƒ ¸ ˛ √ ª ﬁ Ø Æ ™
     ≤ ÷ ≈ Ç ‹ › ‘ ’ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     < 1 2 3 4 5 6 7 8 9 0 + ´
-    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} \u{1E}
+    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} ~
     \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} \u{1C} \u{1B} '
     < \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . \u{1F}
   # cmd+opt
@@ -93,7 +94,7 @@ deadKeys:
   iso-caps: ['´']
   iso-alt: ['¨', '~']
   iso-alt+shift: ['^']
-  iso-caps+alt: ['~']
+  iso-caps+alt: ['¨', '~']
 
 transforms:
   "`":
@@ -120,6 +121,8 @@ transforms:
     O: Ó
     u: ú
     U: Ú
+    y: ý
+    Y: Ý
   ^:
     " ": ^
     a: â
