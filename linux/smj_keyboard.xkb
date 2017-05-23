@@ -2,49 +2,49 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Julevsámegiella (Vuodna)";
+    name[Group1] = "Julevsámegiella (Vuodna, macOS)";
 
-    key <AE00> { [ apostrophe,    section,   EuroSign, Ydiaeresis ] };
+    key <AE00> { [ apostrophe,    section, apostrophe,    section ] };
     key <AE01> { [          1,     exclam,  copyright, exclamdown ] };
     key <AE02> { [          2,   quotedbl,  trademark, registered ] };
     key <AE03> { [          3, numbersign,   sterling,        yen ] };
     key <AE04> { [          4,     dollar,   EuroSign,       cent ] };
-    key <AE05> { [          5,    percent,   infinity,   permille ] };
+    key <AE05> { [          5,    percent,      caret,      U032D ] };
     key <AE06> { [          6,  ampersand,    section,  paragraph ] };
     key <AE07> { [          7,      slash,        bar,  backslash ] };
     key <AE08> { [          8,  parenleft, bracketleft,  braceleft ] };
     key <AE09> { [          9, parenright, bracketright, braceright ] };
-    key <AE10> { [          0,      equal,      U2248,   notequal ] };
+    key <AE10> { [          0,      equal, doubleacute,      U030B ] };
     key <AE11> { [       plus,   question,  plusminus, questiondown ] };
-    key <AE12> { [      acute,      grave,  diaeresis, asciicircum ] };
-    key <AD01> { [     aacute,     Aacute,          q,          Q ] };
-    key <AD02> { [          w,          W, Greek_OMEGA, doubleacute ] };
+    key <AE12> { [      acute,      grave,  diaeresis,      U0300 ] };
+    key <AD01> { [     aacute,     Aacute, enfilledcircbullet,     degree ] };
+    key <AD02> { [          w,          W,      comma,      U0326 ] };
     key <AD03> { [          e,          E,     eacute,     Eacute ] };
-    key <AD04> { [          r,          R ] };
-    key <AD05> { [          t,          T,     dagger, doubledagger ] };
-    key <AD06> { [          y,          Y,         mu,      U02DC ] };
-    key <AD07> { [          u,          U, udiaeresis, Udiaeresis ] };
-    key <AD08> { [          i,          I,   idotless,      U02C6 ] };
+    key <AD04> { [          r,          R,      caron,      U030C ] };
+    key <AD05> { [          t,          T,      thorn,      THORN ] };
+    key <AD06> { [          y,          Y,      breve,      U0306 ] };
+    key <AD07> { [          u,          U,      U02C0,      U0309 ] };
+    key <AD08> { [          i,          I,      U02BC,      U031B ] };
     key <AD09> { [          o,          O,         oe,         OE ] };
-    key <AD10> { [          p,          P,   Greek_pi,      U220F ] };
-    key <AD11> { [      aring,      Aring,   abovedot,      U02DA ] };
-    key <AD12> { [        eng,        ENG, asciitilde, asciicircum ] };
-    key <AC01> { [          a,          A,      UF8FF,      U25CA ] };
-    key <AC02> { [          s,          S,     ssharp,      U2211 ] };
-    key <AC03> { [          d,          D, partdifferential,      U2206 ] };
-    key <AC04> { [          f,          F,   function,   integral ] };
-    key <AC05> { [          g,          G,    cedilla,    overbar ] };
-    key <AC06> { [          h,          H,     ogonek,      breve ] };
-    key <AC07> { [          j,          J, squareroot,    notsign ] };
-    key <AC08> { [          k,          K, ordfeminine,  masculine ] };
-    key <AC09> { [          l,          L,      UFB01,      UFB02 ] };
+    key <AD10> { [          p,          P,   abovedot,      U0307 ] };
+    key <AD11> { [      aring,      Aring,      U02DA,      U030A ] };
+    key <AD12> { [        eng,        ENG, asciitilde,      U02C6 ] };
+    key <AC01> { [          a,          A,    overbar,      U0304 ] };
+    key <AC02> { [          s,          S,     ssharp, numerosign ] };
+    key <AC03> { [          d,          D,        eth,        ETH ] };
+    key <AC04> { [          f,          F,   function,      U0294 ] };
+    key <AC05> { [          g,          G, decimalpoint,      U0323 ] };
+    key <AC06> { [          h,          H,     ogonek,      U0328 ] };
+    key <AC07> { [          j,          J,     UF0000,      U0330 ] };
+    key <AC08> { [          k,          K,      U02DC,      U0303 ] };
+    key <AC09> { [          l,          L,      minus,      U0335 ] };
     key <AC10> { [   ooblique,   Ooblique, odiaeresis, Odiaeresis ] };
     key <AC11> { [         ae,         AE, adiaeresis, Adiaeresis ] };
-    key <AD13> { [         at,   asterisk, apostrophe ] };
+    key <AD13> { [         at,   asterisk, apostrophe,   quotedbl ] };
     key <AB00> { [  leftcaret, rightcaret, lessthanequal, greaterthanequal ] };
     key <AB01> { [          z,          Z,   division,      U2044 ] };
-    key <AB02> { [          x,          X,      U2248 ] };
-    key <AB03> { [          c,          C,   ccedilla,   Ccedilla ] };
+    key <AB02> { [          x,          X,      U02CD,      U0331 ] };
+    key <AB03> { [          c,          C,    cedilla,      U0327 ] };
     key <AB04> { [          v,          V,      U2039, guillemotleft ] };
     key <AB05> { [          b,          B,      U203A, guillemotright ] };
     key <AB06> { [          n,          N, leftsinglequotemark, leftdoublequotemark ] };
@@ -60,11 +60,11 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Julevsámegiella (Svierik)";
+    name[Group1] = "Julevsámegiella (Svierik, macOS)";
 
     key <AE00> { [    section,     degree,  paragraph, enfilledcircbullet ] };
     key <AE01> { [          1,     exclam,  copyright, exclamdown ] };
-    key <AE02> { [          2,   quotedbl,  trademark, rightdoublequotemark ] };
+    key <AE02> { [          2,   quotedbl,         at, rightdoublequotemark ] };
     key <AE03> { [          3, numbersign,   sterling,        yen ] };
     key <AE04> { [          4,   EuroSign,     dollar,       cent ] };
     key <AE05> { [          5,    percent,   infinity,   permille ] };
@@ -98,7 +98,7 @@ xkb_symbols "basic" {
     key <AC09> { [          l,          L,      UFB01,      UFB02 ] };
     key <AC10> { [ odiaeresis, Odiaeresis,   ooblique,   Ooblique ] };
     key <AC11> { [ adiaeresis, Adiaeresis,         ae,         AE ] };
-    key <AD13> { [ apostrophe,   asterisk,         at, rightsinglequotemark ] };
+    key <AD13> { [ apostrophe,   asterisk,  trademark, rightsinglequotemark ] };
     key <AB00> { [  leftcaret, rightcaret, lessthanequal, greaterthanequal ] };
     key <AB01> { [          z,          Z,   division,      U2044 ] };
     key <AB02> { [          x,          X,      U2248,      caron ] };
@@ -118,7 +118,7 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Julevsámegiella (Vuodna)";
+    name[Group1] = "Julevsámegiella (Vuodna, Windows)";
 
     key <AE00> { [        bar,    section ] };
     key <AE01> { [          1,     exclam ] };
@@ -176,7 +176,7 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Julevsámegiella (Svierik)";
+    name[Group1] = "Julevsámegiella (Svierik, Windows)";
 
     key <AE00> { [    section,    onehalf ] };
     key <AE01> { [          1,     exclam ] };
