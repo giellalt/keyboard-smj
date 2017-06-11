@@ -30,7 +30,7 @@ targets:
     keyAlias: sami_keyboard
 
   ios: &AppleID
-    codeSignId: "iOS Development"
+    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
     provisioningProfileId: Test
     packageId: no.uit.giella
     bundleName: *bundleName
@@ -38,7 +38,6 @@ targets:
   osx:
     <<: *AppleID
     icon: images/smj-keyboard-menu-icon.png
-    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
     version: 0.2.0
     resources: doc
     readme: readme.html
