@@ -35,6 +35,7 @@ targets:
     packageId: no.uit.giella
     bundleName: *bundleName
     icon: images/smj-icon.png
+
   osx:
     <<: *AppleID
     icon: images/smj-keyboard-menu-icon.png
@@ -42,3 +43,9 @@ targets:
     resources: doc
     readme: readme.html
     background: background.png
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
