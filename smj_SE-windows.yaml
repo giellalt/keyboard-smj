@@ -17,6 +17,10 @@ locale: smj
 
 supportedTargets: [win, x11, svg]
 
+targets:
+  win:
+    locale: smj-Latn-SE
+
 modes:
   # default
   iso-default: |
