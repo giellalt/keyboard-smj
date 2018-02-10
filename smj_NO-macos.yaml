@@ -40,19 +40,19 @@ modes:
   # opt
   iso-alt: |
     ' © ™ £ € ‸ § | [ ] ˝ ± ¨
-      • , é ˇ þ ˘ ˀ ʼ œ ˙ ˚ ~
+      q , é ˇ þ ˘ ˀ ʼ œ ˙ ˚ ~
       ¯ ß ð ƒ . ˛ \u{A0}\u{330} ˜ - ö ä '
     ≤ ÷ ˍ ¸ ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     § ¡ ® ¥ ¢ \u{32D} ¶ \ { } \u{30B} ¿ \u{300}
-      ° \u{326} É \u{30C} Þ \u{306} \u{309} \u{31B} Œ \u{307} \u{30A} ˆ
+      Q \u{326} É \u{30C} Þ \u{306} \u{309} \u{31B} Œ \u{307} \u{30A} ˆ
       \u{304} № Ð ʔ \u{323} \u{328} \u{330} \u{303} \u{335} Ö Ä "
     ≥ ⁄ \u{331} \u{327} « » “ ” „ · —
   #" # opt+caps+cmd?
   iso-caps+alt: |
     ≤ © ™ £ € ‸ § | [ ] ˝ ± \u{301}
-      • , É ˇ Þ ˘ ˀ ʼ Œ ˙ ˚ \u{308}
+      Q , É ˇ Þ ˘ ˀ ʼ Œ ˙ ˚ \u{308}
       ¯ SS Ð ƒ . ˛ \u{A0}\u{330} ˜ - Ö Ä '
     ' ÷ ˍ ¸ ‹ › ‘ ’ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?

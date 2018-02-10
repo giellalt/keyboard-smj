@@ -39,7 +39,7 @@ targets:
   osx:
     <<: *AppleID
     icon: images/smj-keyboard-menu-icon.png
-    version: 0.2.0
+    version: 1.0.1
     resources: doc
     readme: readme.html
     background: background.png
