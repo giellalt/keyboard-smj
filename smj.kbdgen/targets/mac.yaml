@@ -4,3 +4,4 @@ packageId: no.uit.giella.keyboards.smj
 bundleName: Lule Sami Keyboards
 icon: images/smj-keyboard-menu-icon.png
 version: 1.0.2
+build: 1
