@@ -111,6 +111,37 @@ modes:
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+  chrome:
+    default: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+      á w e r t y u i o p å ŋ
+      a s d f g h j k l ö ä '
+      < z x c v b n m , . -
+    shift: |
+      ½ ! " # ¤ % & / ( ) = ? `
+      Á W E R T Y U I O P Å Ŋ
+      A S D F G H J K L Ö Ä *
+      > Z X C V B N M ; : _
+    caps: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+      Á W E R T Y U I O P Å Ŋ
+      A S D F G H J K L Ö Ä '
+      < Z X C V B N M , . -
+    caps+shift: |
+      ½ ! " # ¤ % & / ( ) = ? `
+      á w e r t y u i o p å ŋ
+      a s d f g h j k l ö ä *
+      > z x c v b n m ; : _
+    alt: |
+      \u{0} \u{0} @ £ $ € \u{0} { [ ] } \ ¨
+      q â € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
+      á š đ ǥ ǧ ȟ \u{0} ǩ \u{0} ø æ \u{0}
+      | ž \u{0} č ǯ ʒ ŋ µ \u{0} \u{0} \u{0}
+    alt+shift: |
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^
+      Q Â \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} \u{0}
+      Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ø Æ \u{0}
+      \u{0} Ž \u{0} Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
 transforms:
   '`':
     ' ': '`'
@@ -270,3 +301,6 @@ deadKeys:
 targets:
   win:
     locale: smj-Latn-SE
+  chrome:
+    locale: sv
+    xkbLayout: se
