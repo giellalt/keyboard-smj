@@ -3,5 +3,5 @@ provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.smj
 bundleName: Lule Sami Keyboards
 icon: images/icon.png
-version: 1.0.3
+version: 1.0.4
 build: 1
