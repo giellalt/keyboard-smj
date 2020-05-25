@@ -369,10 +369,10 @@ deadKeys:
 targets:
   ios:
     legacyName: julev_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj?channel=nightly&platform=mobile
     spellerPath: smj.bhfst
   android:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj?channel=nightly&platform=mobile
     spellerPath: smj.bhfst
   win:
     locale: smj-Latn-SE
