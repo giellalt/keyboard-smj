@@ -10,7 +10,7 @@ displayNames:
   se: Julevsámegiella (Ruoŧŧa)
   sv: Lulesamiska (Sverige)
 modes:
-  mobile:
+  android:
     default: |
       á w e r t y u i o p å
       a s d f g h j k l ö ä
@@ -19,6 +19,74 @@ modes:
       Á W E R T Y U I O P Å
       A S D F G H J K L Ö Ä
          Z X C V B N M Ŋ
+  ios:
+    default: |
+      á w e r t y u i o p å
+      a s d f g h j k l ö ä
+      \s{shift:1.25} \s{spacer:0.25} z x c v b n m ŋ \s{spacer:0.25} \s{backspace:1.25}
+    shift: |
+      Á W E R T Y U I O P Å
+      A S D F G H J K L Ö Ä
+      \s{shift:1.25} \s{spacer:0.25} Z X C V B N M Ŋ \s{spacer:0.25} \s{backspace:1.25}
+    symbols-1: |
+      1 2 3 4 5 6 7 8 9 0
+      - / : ; ( ) kr & @ "
+      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+    symbols-2: |
+      [ ] { } # % ^ * + =
+      _ \ | ~ < > € $ £ •
+      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  ipad-9in:
+    default: |
+      á w e r t y u i o p å ŋ \s{backspace}
+      \s{spacer:0.25} a s d f g h j k l ö ä \s{return:1.25}
+      \s{shift:1.1} z x c v b n m , . \s{shift:2.4}
+    shift: |
+      Á W E R T Y U I O P Å Ŋ \s{backspace}
+      \s{spacer:0.25} A S D F G H J K L Ö Ä \s{return:1.25}
+      \s{shift:1.1} Z X C V B N M ! ? \s{shift:2.4}
+    alt: |
+      1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+      \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
+      \s{shift:1.1} q w - = / ; : ! ? \s{shift:2.4}
+    alt+shift: |
+      1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+      \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
+      \s{shift:1.1} Q W - = / ; : ! ? \s{shift:2.4}
+    symbols-1: |
+      1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+      \s{spacer:0.25} @ # € & * ( ) ' " + • \s{return:1.25}
+      \s{shiftSymbols:1.1} % _ - = / ; : , . \s{shiftSymbols:2.4}
+    symbols-2: |
+      1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+      \s{spacer:0.25} $ £ ¥ ^ [ ] { } — ° … \s{return:1.25}
+      \s{shiftSymbols:1.1} § | ~ ≠ \ < > ! ? \s{shiftSymbols:2.4}
+  ipad-12in:
+    default: |
+      ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
+      \s{spacer:1.5} á w e r t y u i o p å ŋ @
+      \s{caps:1.75}  a s d f g h j k l ö ä \s{return:1.75}
+      \s{shift:1.25} < z x c v b n m , . - \s{shift:2.25}
+    shift: |
+      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+      \s{spacer:1.5} Á W E R T Y U I O P Å Ŋ *
+      \s{caps:1.75}  A S D F G H J K L Ö Ä \s{return:1.75}
+      \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
+    alt: |
+      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+      \s{spacer:1.5} q w e r t y u i o p å ŋ *
+      \s{caps:1.75}  a s d f g h j k l ø æ \s{return:1.75}
+      \s{shift:1.25} > z x c v b n m ; : _ \s{shift:2.25}
+    alt+shift: |
+      § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+      \s{spacer:1.5} Q W E R T Y U I O P Å Ŋ *
+      \s{caps:1.75}  A S D F G H J K L Ø Æ \s{return:1.75}
+      \s{shift:1.25} > Z X C V B N M ; : _ \s{shift:2.25}
+    symbols-1: |
+      ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+      \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
+      \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
+      \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
   mac:
     default: |
       § 1 2 3 4 5 6 7 8 9 0 + ´
@@ -142,35 +210,6 @@ modes:
       Q Â \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} \u{0}
       Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ø Æ \u{0}
       \u{0} Ž \u{0} Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
-
-longpress:
-  A: Æ Ä Å Â
-  Á: Q
-  C: Č
-  D: Đ
-  G: Ǧ Ǥ
-  I: Ï
-  K: Ǩ
-  O: Ø Ö Õ
-  S: Š
-  T: Ŧ
-  Z: Ž Ǯ Ʒ
-  Ä: Æ
-  Ö: Ø
-  a: æ ä å â
-  á: q
-  c: č
-  d: đ
-  g: ǧ ǥ
-  i: ï
-  k: ǩ
-  o: ø ö õ
-  s: š
-  t: ŧ
-  z: ž ǯ ʒ
-  ä: æ
-  ö: ø
-
 transforms:
   '`':
     ' ': '`'
@@ -276,9 +315,36 @@ transforms:
     I: Ĩ
     u: ũ
     U: Ũ
+longpress:
+  A: Æ Ä Å Â
+  Á: Q
+  C: Č
+  D: Đ
+  G: Ǧ Ǥ
+  I: Ï
+  K: Ǩ
+  O: Ø Ö Õ
+  S: Š
+  T: Ŧ
+  Z: Ž Ǯ Ʒ
+  Ä: Æ
+  Ö: Ø
+  a: æ ä å â
+  á: q
+  c: č
+  d: đ
+  g: ǧ ǥ
+  i: ï
+  k: ǩ
+  o: ø ö õ
+  s: š
+  t: ŧ
+  z: ž ǯ ʒ
+  ä: æ
+  ö: ø
 strings:
   space: gasska
-  return: linnjamålssom
+  return: "linnja\u00ADmålssom"
 space:
   mac:
     alt: '\u{A0}'
@@ -301,6 +367,13 @@ deadKeys:
     alt: [¨, '~']
     alt+shift: [^]
 targets:
+  ios:
+    legacyName: julev_sami_keyboard
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj?channel=nightly&platform=mobile
+    spellerPath: smj.bhfst
+  android:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-smj?channel=nightly&platform=mobile
+    spellerPath: smj.bhfst
   win:
     locale: smj-Latn-SE
   chrome:
