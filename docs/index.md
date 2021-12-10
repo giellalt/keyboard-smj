@@ -1,6 +1,5 @@
-## Readme
+# Documentation for the __UNDEFINED__ keyboards
 
-The Readme accompanying the installer can be read here in various
 languages:
 
 -   [English](en.lproj/readme.html)
