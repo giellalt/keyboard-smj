@@ -8,18 +8,18 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Julevsámegiella (Vuodna, macOS)
+# Julevsámegiella (Vuodna, macOS)
 
 ![Alt text](smj_NO_macos.svg)
 
-## Julevsámegiella (Vuodna, Windows)
+# Julevsámegiella (Vuodna, Windows)
 
 ![Alt text](smj_NO_windows.svg)
 
-## Julevsámegiella (Svierik, macOS)
+# Julevsámegiella (Svierik, macOS)
 
 ![Alt text](smj_SE_macos.svg)
 
-## Julevsámegiella (Svierik, Windows)
+# Julevsámegiella (Svierik, Windows)
 
 ![Alt text](smj_SE_windows.svg)

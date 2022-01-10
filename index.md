@@ -8,10 +8,10 @@ languages:
 -   [North Sámi](se.lproj/readme.html)
 -   [Swedish](sv.lproj/readme.html)
 
-## Layouts
+# Layouts
 
 -   [Layout overview](layout.html)
 
-## Other information
+# Other information
 
 Add text and links as necessary.
