@@ -1,12 +1,14 @@
 # Documentation for the Lule Sami keyboards
 
-languages:
+This repo defines several keyboards for Lule Sámi:
 
--   [English](en.lproj/readme.html)
--   [Norwegian Bokmål](no.lproj/readme.html)
--   [Norwegian nynorsk](nn.lproj/readme.html)
--   [North Sámi](se.lproj/readme.html)
--   [Swedish](sv.lproj/readme.html)
+- desktop keyboards for Norway (Windows and macOS)
+- desktop keyboards for Sweden (Windows and macOS)
+- a ChromeOS keyboard, based on the Windows keyboard layout
+- mobile keyboard layouts for Android, iPhones, and small and large iPads
+
+In all cases, the layout is based on the standard Norwegian or Swedish keyboards.
+This means that everything that is not specific to South Sami is exactly where it is on the standard Norwegian or Swedish keyboard.
 
 # Layouts
 
