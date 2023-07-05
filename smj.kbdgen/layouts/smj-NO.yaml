@@ -882,7 +882,7 @@ keyNames:
 #    join: sebra      # when pressing the return key joins a wifi net or similar
 #    cancel: hilgo  # when pressing the return key cancels an action
 #    continue: joarke  # when pressing the return key continues a process
-#    done: ållim      # when pressing the return key finishes a process
+#    done: ålli      # when pressing the return key finishes a process
 #    emergency: hiehte # when pressing the return key triggers an emergency call
 #    next: boahtte           # when pressing the return key takes you to the next field or similar
 #    route: válkav         # when pressing the return key finds a route or some direction to go
