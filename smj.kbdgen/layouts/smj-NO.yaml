@@ -876,18 +876,18 @@ keyNames:
   space: gasska
   return: "linnja\u00ADmålssom"
 #  return-alts:
-#    search: your-word-for-search  # when pressing the return key triggers a search
-#    go: your-word-for-go-or-open  # when pressing the return key goes to or opens a URL
-#    send: your-word-for-send      # when pressing the return key sends e.g. an instant message
-#    join: your-word-for-join      # when pressing the return key joins a wifi net or similar
-#    cancel: your-word-for-cancel  # when pressing the return key cancels an action
-#    continue: your-word-for-cont  # when pressing the return key continues a process
-#    done: your-word-for-done      # when pressing the return key finishes a process
-#    emergency: word-for-emergency-call # when pressing the return key triggers an emergency call
-#    next: word-for-next           # when pressing the return key takes you to the next field or similar
-#    route: word-for-route         # when pressing the return key finds a route or some direction to go
-#  undo: your-word-for-undo # or "symbol"
-#  redo: your-word-for-redo # or "symbol"
+#    search: åtså  # when pressing the return key triggers a search
+#    go: rabá  # when pressing the return key goes to or opens a URL
+#    send: rája      # when pressing the return key sends e.g. an instant message
+#    join: sebra      # when pressing the return key joins a wifi net or similar
+#    cancel: hilgo  # when pressing the return key cancels an action
+#    continue: joarke  # when pressing the return key continues a process
+#    done: ållim      # when pressing the return key finishes a process
+#    emergency: hiehte # when pressing the return key triggers an emergency call
+#    next: boahtte           # when pressing the return key takes you to the next field or similar
+#    route: válkav         # when pressing the return key finds a route or some direction to go
+#  undo: gáda # or "symbol"
+#  redo: gáda gáhtamav # or "symbol"
 
 # When the string "symbol" is specified above, an OS specific symbol is used. For "return" that is typically ⏎,
 # for the other keys it is other symbols. "symbol" can be used both in cases where the word is too long to fit
