@@ -58,29 +58,29 @@ iOS:
   iPad-9in:
     layers:
       default: |
-        á w e r t y u i o p å ŋ \s{backspace}
-        \s{spacer:0.25} a s d f g h j k l ö ä \s{return:1.25}
-        \s{shift:1.1} z x c v b n m , . \s{shift:2.4}
+        á                w e r t y u i o p å ŋ \s{backspace}
+        \s{spacer:0.3} a s d f g h j k l ö ä   \s{return:1.7}
+        \s{shift}        z x c v b n m , .     \s{shift:3}
       shift: |
-        Á W E R T Y U I O P Å Ŋ \s{backspace}
-        \s{spacer:0.25} A S D F G H J K L Ö Ä \s{return:1.25}
-        \s{shift:1.1} Z X C V B N M ! ? \s{shift:2.4}
+        Á                W E R T Y U I O P Å Ŋ \s{backspace}
+        \s{spacer:0.3} A S D F G H J K L Ö Ä   \s{return:1.7}
+        \s{shift}        Z X C V B N M ! ?     \s{shift:3}
       alt: |
-        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
-        \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
-        \s{shift:1.1} q w - = / ; : ! ? \s{shift:2.4}
+        1                2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.3} % # € & * ( ) ' " + @   \s{return:1.7}
+        \s{shift}        q _ - = / ; : ! ?     \s{shift:3}
       alt+shift: |
-        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
-        \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
-        \s{shift:1.1} Q W - = / ; : ! ? \s{shift:2.4}
+        1                2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.3} % # € & * ( ) ' " + @   \s{return:1.7}
+        \s{shift}        Q _ - = / ; : ! ?     \s{shift:3}
       symbols-1: |
-        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
-        \s{spacer:0.25} @ # € & * ( ) ' " + • \s{return:1.25}
-        \s{shiftSymbols:1.1} % _ - = / ; : , . \s{shiftSymbols:2.4}
+        1                2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.3} @ # € & * ( ) ' " + •   \s{return:1.7}
+        \s{shiftSymbols} % _ - = / ; : , .     \s{shiftSymbols:3}
       symbols-2: |
-        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
-        \s{spacer:0.25} $ £ ¥ ^ [ ] { } — ° … \s{return:1.25}
-        \s{shiftSymbols:1.1} § | ~ ≠ \ < > ! ? \s{shiftSymbols:2.4}
+        1                2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.3} $ £ ¥ ^ [ ] { } — ° …   \s{return:1.7}
+        \s{shiftSymbols} § | ~ ≠ \ < > ! ?     \s{shiftSymbols:3}
   iPad-12in:
     layers:
       default: |
