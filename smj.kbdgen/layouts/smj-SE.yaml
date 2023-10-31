@@ -74,11 +74,11 @@ iOS:
         \s{spacer:0.3} @ # kr & * ( ) ' " Ø Æ \s{return:1.7}
         \s{shift}        % Q  _ - = / ; : ! ? \s{shift:2}
       symbols-1: |
-        1                2 3  4 5 6 7 8 9 0 ` \s{backspace:2}
+        1                2 3  4 5 6 7 8 9 0 ´ \s{backspace:2}
         \s{spacer:0.3} @ # €  & * ( ) ' " + • \s{return:1.7}
         \s{shiftSymbols} % ‰  _ - = / ; : , . \s{shiftSymbols:2}
       symbols-2: |
-        1                2 3  4 5 6 7 8 9 0 ´ \s{backspace:2}
+        1                2 3  4 5 6 7 8 9 0 ` \s{backspace:2}
         \s{spacer:0.3} $ £ ¥  ^ [ ] { } — ° … \s{return:1.7}
         \s{shiftSymbols} § ¢  | ~ ≠ \ < > ! ? \s{shiftSymbols:2}
   iPad-12in:
