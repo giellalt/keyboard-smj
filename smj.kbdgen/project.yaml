@@ -1,14 +1,35 @@
 locales:
   en:
     name: Lule Sami Keyboards
-    description: Keyboards for the Lule Sami language from the Divvun group at UiT.
+    description: >-
+      Keyboards for Lule Sámi from the Divvun and Giellatekno groups at UiT.
+      For Windows, macOS, Linux, ChromeOS, smartphones and tablets.
+      Layouts for Finland, Norway and Sweden.
   nb:
     name: Lulesamiske tastatur
-    description: Tastatur for lulesamisk fra Divvun-gruppa.
+    description: >-
+      Tastatur for nordsamisk fra Divvun-gruppa og Giellatekno-gruppene ved UiT.
+      For Windows, macOS, Linux, ChromeOS, mobiltelefoner og nettbrett.
+      Tilpasset for Finland, Norge og Sverige.
+  nn:
+    name: Lulesamiske tastatur
+    description: >-
+      Tastatur for nordsamisk frå Divvun- og Giellatekno-gruppene ved UiT.
+      For Windows, macOS, Linux, ChromeOS, mobiltelefonar og nettbrett.
+      Tilpassa for Finland, Noreg og Sverige.
+  se:
+    name: Julevsámi boallobeavdi
+    description: >-
+      Boallobeavdi davvisámegiela várás Divvun- ja Giellatekno-joavkkuin UiT:s.
+      Doaibmá Windowsis, macOS:s, Linuxis, ChromeOS:s, mátketelefovnnain ja dihtordulbosiin.
+      Heivehuvvon Supmii, Norgii ja Ruŧŧii.
   sv:
     name: Lulesamiska tangentbord
-    description: Tangentbord för lulesamiska från Divvun-gruppen vid UiT.
-author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
-copyright: (c) 2017 Divvun/Giellatekno/UiT
+    description: >-
+      Tangentbord för lulesamiska från Divvun- och Giellatekno-grupperna ved UiT.
+      För Windows, macOS, Linux, ChromeOS, mobiltelefoner och surfplattor.
+      Anpassade för Norge och Sverige.
+author: 'The Divvun and Giellatekno Groups, UiT Norgga árktalaš universitehta'
+copyright: © 2024 Divvun/Giellatekno/UiT
 email: feedback@divvun.no
 organisation: UiT Norgga árktalaš universitehta
