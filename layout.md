@@ -1,25 +1,79 @@
-# Keyboard layouts for Julev Sámi
+---
+layout: default
+---
 
-**Legend:**
+# Keyboard layouts for SMJ / smj
 
-| Mode       | Default | AltGr/Option | Caps Lock (Mode Switch) | Caps Lock + AltGr/Option |
-| ----------:|:-------:|:------------:|:-----------------------:|:------------------------:|
-|**Standard**| black   | red          | blue                    | purple                   |
-|**Deadkey** | green   | orange       | pink                    | green                    |
+> Tip: These keyboards are interactive — click or tap keys to explore different layers (Shift, Alt, etc.)
 
+## Mac (Vuodna)
 
-# Julevsámegiella (Vuodna, macOS)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=macOS&variant=primary"></iframe>
 
-![Alt text](smj_NO_macos.svg)
+## Windows (Vuodna)
 
-# Julevsámegiella (Vuodna, Windows)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=windows&variant=primary"></iframe>
 
-![Alt text](smj_NO_windows.svg)
+## ChromeOS (Vuodna)
 
-# Julevsámegiella (Svierik, macOS)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=chromeOS&variant=primary"></iframe>
 
-![Alt text](smj_SE_macos.svg)
+## Android
 
-# Julevsámegiella (Svierik, Windows)
+### Phone
 
-![Alt text](smj_SE_windows.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=android&variant=primary"></iframe>
+
+### Tablet
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=android&variant=tablet-600"></iframe>
+
+## iOS/iPadOS
+
+### iPhone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=iOS&variant=primary"></iframe>
+
+### 9" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=iOS&variant=iPad-9in"></iframe>
+
+### 12" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-NO&platform=iOS&variant=iPad-12in"></iframe>
+
+## Mac (Svierik)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=macOS&variant=primary"></iframe>
+
+## Windows (Svierik)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=windows&variant=primary"></iframe>
+
+## ChromeOS (Svierik)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=chromeOS&variant=primary"></iframe>
+
+## Android
+
+### Phone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=android&variant=primary"></iframe>
+
+### Tablet
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=android&variant=tablet-600"></iframe>
+
+## iOS/iPadOS
+
+### iPhone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=iOS&variant=primary"></iframe>
+
+### 9" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=iOS&variant=iPad-9in"></iframe>
+
+### 12" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&layout=smj-SE&platform=iOS&variant=iPad-12in"></iframe>
