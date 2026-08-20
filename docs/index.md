@@ -10,10 +10,10 @@ This repo defines several keyboards for Lule Sámi:
 In all cases, the layout is based on the standard Norwegian or Swedish keyboards.
 This means that everything that is not specific to South Sami is exactly where it is on the standard Norwegian or Swedish keyboard.
 
-# Layouts
+## Layouts
 
--   [Layout overview](layout.html)
+- [Layout overview](layout.md)
 
-# Other information
+## Other information
 
 Add text and links as necessary.
