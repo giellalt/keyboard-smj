@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Documentation for the Lule Sami keyboards
 
 This repo defines several keyboards for Lule Sámi:
