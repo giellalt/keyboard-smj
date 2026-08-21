@@ -16,7 +16,7 @@ This means that everything that is not specific to South Sami is exactly where i
 
 ## Layouts
 
-- [Layout overview](layout.md)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=smj&interactive=false"></iframe>
 
 ## Other information
 
